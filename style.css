@@ -1,0 +1,83 @@
+/* https://favicon.io/favicon-converter/ */
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+ 
+}
+html,
+body {
+  height: 100%;
+}
+
+
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+  /* background-color: #f5f5f5; */
+  background-image:url(./images/bg-desktop.svg);
+  color:var(--violet);
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.mb-4{
+  border-radius:100%;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.big-heading{
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  color:black;
+}
+
+i.logo{
+  font-size:8rem ;
+  padding-bottom: 2rem;
+  color:black;
+}
+.block{
+  color:black;
+  padding-right:0.6rem;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
